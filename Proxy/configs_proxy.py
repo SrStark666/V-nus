@@ -14,7 +14,7 @@ class Proxy:
                 -a name archive for save list proxy.txt
                 -y for save archive
 
-                Example: python3 sunev.py -proxy -y -a list_proxy.txt
+                Example: python3 sunev.py proxy -y -a list_proxy.txt
             """)
         
     def main(self, list_args: list) -> list[dict[str: int]]: #list: [dict{http://127.0.0.1:80, https://127.0.0.1:80}]
