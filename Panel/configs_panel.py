@@ -23,7 +23,7 @@ class Finder:
             -w Website target
             -p Protocol
             
-            Example: python3 Sunev.py -finder -w www.google.com -p https
+            Example: python3 Sunev.py finder -w www.google.com -p https
                 """)
                 
     def main(self, list_args) -> None:
