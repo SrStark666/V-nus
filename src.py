@@ -42,7 +42,7 @@ class Commands:
                 Digit [mode] -h for help menu               
                 Example: python3 Sunev.py -h denial
                 Install dependencies: python3 Sunev.py -d
-                Options menu: -denial | -finder | -proxy
+                Options menu: denial | finder | proxy
             """)
         elif self.mode in self.objects_class and argv[2] == "-h":
             self.objects_class[self.mode][0].help_()
