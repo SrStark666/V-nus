@@ -22,7 +22,7 @@ class DenialOfService:
             -pkg number of packages for send
             -b for especifies of lenght bytes
 
-            Example: python3 Sunev.py -denial -t 127.0.0.1 -p 80 -th 5 -pkg 3 -b 1048
+            Example: python3 Sunev.py denial -t 127.0.0.1 -p 80 -th 5 -pkg 3 -b 1048
                 """)
 
   def tcp(self, target: str, port: int, packages: int, bytes: int) -> None:
